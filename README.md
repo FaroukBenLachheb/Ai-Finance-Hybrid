@@ -54,4 +54,4 @@ python main.py
 ├─ results/
 └─ requirements.txt
 
-📄 **Paper (PDF):** [Hybrid Price + News Sentiment for S&P 500](./docs/AixFinance_paper.pdf)
+
