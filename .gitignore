@@ -33,3 +33,9 @@ results/*.pth
 # --- Downloads / caches ---
 .cache/
 huggingface/
+!docs/*.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
