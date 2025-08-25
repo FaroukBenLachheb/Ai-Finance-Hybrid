@@ -1,0 +1,35 @@
+# --- Python build/cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+
+# --- Envs & IDEs ---
+venv/
+.venv/
+.env
+*.env
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# --- Data (keep small derived CSVs, ignore big/raw) ---
+data/raw/
+data/processed/
+data/external/*
+!data/external/.gitkeep
+# keep the small aggregated headlines by default
+!data/news_headlines.csv
+
+# --- Results (keep CSVs, ignore heavy weights) ---
+results/*.pt
+results/*.ckpt
+results/*.pth
+# keep ab_results.csv so results history is tracked
+!results/ab_results.csv
+
+# --- Downloads / caches ---
+.cache/
+huggingface/
